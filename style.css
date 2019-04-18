@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poiret One', cursive;
+}
+
+html, body {
+	height: 100vh;
+	width: 100vw;
+}
+
+img {
+	width: 200px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 15px 0;
+	font-size: 3em;
+}
+
+h2 {
+	margin-left: 20px;
+}
+
+h4 {
+	margin-top: 15px;
+	font-size: 1.2em;
+}
+
+p {
+	margin: 10px 20px;
+	word-spacing: 3px;
+	line-height: 1.2em;
+	font-size: 1.3em;
+}
+
+ul, li {
+	list-style: none;
+	display: inline;
+	font-size: 1.9em;
+}
+
+hr {
+	margin: 20px 0;
+}
+
+a {
+	color: #65C9FF;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+.container {
+	border: 1px solid #000;
+	border-radius: 3px;
+	display: block;
+	margin: 10px auto;
+	width: 400px;
+	height: 835px;
+}
+
+.container:hover {
+	position: relative;
+	bottom: 2px;
+	box-shadow: 5px 10px 5px #eee;
+}
+
+.details {
+	float: right;
+	position: relative;
+	right: 10px;
+	top: 40px;
+}
+
+.socials {
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: 80px;
+}
